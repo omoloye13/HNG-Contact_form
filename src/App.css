@@ -27,16 +27,16 @@
   line-height: 28px;
   
 }
-body{
+.container{
   background-color: #F4F5F7;
 }
 .container{
-  height: 130vh;
+  height: 170vh;
 }
 .bubble{
   display: flex;
   justify-content: center;
-  margin-top: 3em;
+  padding-top: 3em;
 }
 .forward_md{
   position: absolute;
@@ -97,6 +97,7 @@ body{
   height: 100vh;
   margin: auto;
   margin-top: 5em;
+  background-color: #fff;
 }
 .top_content h1 {
   font-style: normal;
@@ -228,7 +229,7 @@ height: 48px;
   width: 95%;
   color: #EAECF0;
   margin-top: 5em;
-  margin-left: 1.5em;
+  margin-left: 1em;
 
 }
 .footer_two{
