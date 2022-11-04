@@ -1,5 +1,5 @@
 import { Routes, Route} from "react-router-dom";
-import Contact from './Contact';
+import ContactForm from './Contact';
 import Container from './Container';
 
 import './App.css';
@@ -7,11 +7,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Container />
+      {/* <Container />
       <Routes>
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-     
+        <Route path="/contact" element={<ContactForm />} />
+      </Routes> */}
+     <ContactForm />
     </div>
   );
 }
