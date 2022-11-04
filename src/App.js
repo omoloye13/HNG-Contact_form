@@ -7,11 +7,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      {/* <Container />
+      {/* <Container /> */}
       <Routes>
+
+      <Route path="/" element={<Container />} />
         <Route path="/contact" element={<ContactForm />} />
-      </Routes> */}
-     <ContactForm />
+      </Routes>
+     {/* <ContactForm /> */}
     </div>
   );
 }
