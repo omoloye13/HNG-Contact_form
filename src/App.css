@@ -241,7 +241,7 @@ height: 48px;
 
 @media(max-width:600px){
   .row{
-    margin-left: 1.3em;
+    margin-left: 0em;
   }
   .tweet{
     text-align: center;
@@ -253,7 +253,7 @@ height: 48px;
     line-height: 28px;
   }
   .container{
-    height: 100vh;
+    height: 125vh;
   }
   .btn{
     background-color: #EAECF0;

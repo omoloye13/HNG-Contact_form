@@ -1,7 +1,7 @@
 import zuriLogo from "./images/zuri_logo.svg";
 import ingLogo from "./images/ing_logo.svg";
 const ContactForm = () => {
-    const name = "Folashade";
+    const name = "Fauziyat Folashade Omoloye";
   return (
     <>
       <main>
@@ -63,6 +63,7 @@ const ContactForm = () => {
                 type="checkbox"
                 id="check_box"
                 name="Check"
+                required
               />
               <label className="box" for="checkbox"> You agree to providing your data to <span className="row">{name} who may contact you.</span></label>
               <br />
