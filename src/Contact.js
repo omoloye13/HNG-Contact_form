@@ -63,6 +63,7 @@ const ContactForm = () => {
                 type="checkbox"
                 id="check_box"
                 name="Check"
+                className="tick"
                 required
               />
               <label className="box" for="checkbox"> You agree to providing your data to <span className="row">{name} who may contact you.</span></label>
